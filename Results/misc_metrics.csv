@@ -1,0 +1,451 @@
+"","NFC_DLU.result","NFC_EFR.result","NFC_ERN.result","RBP_CHN.result","RBP_EPI.result","RBP_SED.result"
+"102PS0139 2010-07-15","Forest","NO","NO",NA,NA,NA
+"403S00640 2009-06-11","Other","NO","NO","18","13","10"
+"403S00772 2009-05-20","Other","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"403S01163 2009-06-08","Forest","NO","NO","20","19","15"
+"403S01195 2009-06-10","Forest","NO","NO","20","19","15"
+"403S01272 2009-06-09","Agriculture","NO","NO",NA,NA,NA
+"403S01784 2009-06-09","Agriculture","NO","NO",NA,NA,NA
+"403S03832 2009-06-08","Other","NO","NO","16","10","9"
+"403S14156 2009-06-09","Suburban, Town","NO","NO",NA,NA,NA
+"404S02920 2009-05-12","Suburban, Town","NO","NO","10","13","10"
+"404S03048 2009-05-13","Suburban, Town","NO","NO",NA,NA,NA
+"404S05992 2009-05-12","Suburban, Town","NO","NO",NA,NA,NA
+"404S06456 2009-05-14","Other","NO","NO","18","15","14"
+"404S08040 2009-05-12","Urban/Industrial","NO","NO",NA,NA,NA
+"404S08616 2009-05-13","Urban/Industrial","NO","NO",NA,NA,NA
+"404S11406 2009-05-11","Other","< 5 year","NO","19","15","15"
+"404S16516 2009-05-18","Suburban, Town","NO","NO","19","17","18"
+"404S17266 2009-05-19","Other","NO","NO","19","16","13"
+"404S17664 2009-05-20","Urban/Industrial","NO","NO","3","11","10"
+"404S22464 2009-05-19","Suburban, Town","NO","NO","13","12","12"
+"901S00313 2009-04-30","Forest","NO","NO","18","18","15"
+"901S00469 2009-05-13","Forest","NO","NO","20","18","18"
+"901S00531 2009-05-07","Urban/Industrial","NO","NO","0","0","20"
+"901S00997 2009-05-14","Suburban, Town","NO","NO","0","6","10"
+"901S01705 2009-05-14","Forest","NO","NO","13","13","15"
+"901S01811 2009-05-07","Suburban, Town","NO","NO","5","7","3"
+"901S06030 2009-04-30","Suburban, Town","NO","NO","14","4","8"
+"901SJMS1x 2008-05-13","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"901SJMS1x 2008-06-02","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"901SJMS1x 2008-06-25","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"901SJMS1x 2008-07-03","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"901SJOF1x 2008-05-16","Forest","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"901SJOF1x 2008-06-25","Forest","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"901SJOF1x 2008-07-03","Forest","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"901TCSMP1 2010-05-25",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"902S00565 2009-04-27","Forest","NO","NO","18","10","7"
+"902S01097 2009-05-11","Agriculture","NO","NO","16","8","5"
+"902SMAS1x 2008-04-02","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"902SMAS1x 2008-05-12","Forest","NO","minimal","Not Recorded","Not Recorded","Not Recorded"
+"902SMAS1x 2008-06-02","Forest","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"903ACPCT1 2010-05-25",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"903ACPCT1 2010-06-15",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"903ACPCT1 2010-06-30",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"903ACPCT1 2010-07-13",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"903CVPCT1 2010-06-01",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"903CVPCT1 2010-06-15",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"903CVPCT1 2010-06-30",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"903CVPCT1 2010-07-13",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"904S00537 2009-05-04","Suburban, Town","NO","NO","13","16","10"
+"905DGCC1 2010-06-02",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGCC1 2010-06-16",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGCC1 2010-06-29",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGCC1 2010-07-13",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2008-04-24","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2008-05-14","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2008-06-03","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2008-06-24","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2008-07-02","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2008-07-09","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2008-07-16","Range","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2010-06-01",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2010-06-14",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2010-06-29",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2010-07-20",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2010-08-19",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGSY1x 2010-09-15","Range","NO","NO","Not Recorded",NA,"Not Recorded"
+"905DGUT1 2010-06-02",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGUT1 2010-06-16",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGUT1 2010-06-29",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905DGUT1 2010-07-13",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"905S01953 2009-04-29","Forest","< 5 year","NO","20","16","15"
+"907S00577 2009-05-12","Forest","NO","NO","20","15","13"
+"907S01418 2009-05-12","Forest","< 5 year","NO","20","12","12"
+"907S01434 2009-05-13","Range","< 5 year","NO","18","14","12"
+"907SRSD1x 2008-07-02","Forest","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"907SRSD1x 2008-07-09","Forest","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"907SRSD1x 2010-06-01",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"907SRSD1x 2010-06-15",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"907SRSD1x 2010-06-29",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"907SRSD1x 2010-07-13",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"911NCPCR2 2010-05-24",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"911NCPCR2 2010-06-14",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"911NCPCR2 2010-06-30",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"911NCPCR2 2010-07-20",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"911NCPCR2 2010-08-19",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"911NCPCR2 2010-09-14","Other","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"911S00538 2009-05-05","Forest","NO","NO","20","17","17"
+"911S01818 2009-05-06","Forest","NO","NO","19","13","10"
+"911S02058 2009-05-05","Forest","NO","NO","20","15","14"
+"911S03354 2009-05-05","Forest","NO","NO","20","13","8"
+"911S04086 2009-05-06","Forest","NO","NO","20","8","12"
+"911TJPC2 2010-05-24",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"911TJPC2 2010-06-14",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"911TJPC2 2010-07-01",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"911TJPC2 2010-07-19",NA,NA,NA,"Not Recorded","Not Recorded","Not Recorded"
+"LALT500 2009-06-22","Urban/Industrial","NO","NO",NA,NA,NA
+"LALT500 2010-07-15","Urban/Industrial","NO","NO",NA,NA,NA
+"LALT501 2010-07-15","Urban/Industrial","NO","NO","2","3","16"
+"LALT-501 2009-06-22","Urban/Industrial","NO","NO","3","3","18"
+"LALT502 2009-06-22","Urban/Industrial","NO","NO",NA,NA,NA
+"LALT502 2010-07-15","Urban/Industrial","NO","NO",NA,NA,NA
+"LALT503 2010-07-15","Urban/Industrial","NO","NO",NA,NA,NA
+"LAR0052 2010-07-08","Forest","< 1 year","NO","19","6","3"
+"LAR0080 2010-07-08","Forest","< 1 year","NO","19","8","6"
+"LAR0092 2010-07-27","Forest","< 5 year","NO",NA,NA,NA
+"LB_RA 2010-05-26","Suburban, Town","NO","NO",NA,NA,NA
+"LB_RA1 2010-05-26","Suburban, Town","NO","NO",NA,NA,NA
+"LC_R31 2010-05-25","Suburban, Town","NO","NO",NA,NA,NA
+"LC_R4 2010-05-25","Suburban, Town","NO","NO",NA,NA,NA
+"LC_R5 2010-05-25","Suburban, Town","NO","NO",NA,NA,NA
+"ME-CC 2010-07-12","Agriculture","NO","NO",NA,NA,NA
+"ME-CC 2011-07-07","Agriculture","NO","NO",NA,NA,NA
+"ME-SCR 2011-07-13","Agriculture","NO","NO",NA,NA,NA
+"ME-VR2 2010-07-07","Agriculture","NO","NO",NA,NA,NA
+"ME-VR2 2011-07-06","Agriculture","NO","NO",NA,NA,NA
+"MO2_Mont 2010-06-30","Suburban, Town","NO","NO",NA,NA,NA
+"POM_RC 2010-05-28","Urban/Industrial","NO","NO","1","2","19"
+"POM_RD 2010-06-16","Suburban, Town","NO","NO",NA,NA,NA
+"REF-CS 2008-10-22","Forest","NO","NO","19","14","18"
+"REF-CS 2009-04-29","Forest","NO","NO","20","15","12"
+"REF-TCAS 2009-04-30","Forest","NO","NO","20","19","18"
+"SA_RB 2010-06-02","Suburban, Town","NO","NO",NA,NA,NA
+"SGLT506 2010-07-06","Urban/Industrial","NO","NO",NA,NA,NA
+"SGLT508 2009-05-26","Suburban, Town","NO","NO",NA,NA,NA
+"SGUR010 2010-06-18","Forest","< 1 year","NO","19","6","3"
+"SGUR010 2011-06-27","Forest","< 5 years","NO","15","13","13"
+"SGUR103 2010-07-22","Forest","< 1 year","NO","20","11","4"
+"SGUR103 2011-08-03","Forest","< 5 years","NO","20","16","17"
+"SGUT 503 2009-05-08","Forest","NO","NO",NA,NA,NA
+"SGUT 503 2010-05-27","Forest","NO","minimal","20","18","20"
+"SGUT501 2010-07-07","Forest","NO","NO","19","18","19"
+"SGUT502 2009-05-13","Forest","NO","NO","12","16","18"
+"SGUT502 2010-05-27","Forest","NO","minimal","18","9","17"
+"SGUT502 2011-06-28","Forest","NO","NO","11","17","15"
+"SGUT503 2011-07-27","Forest","NO","NO","13","14","15"
+"SGUT504 2010-07-07","Forest","NO","NO","19","15","16"
+"SGUT505 2010-07-08","Forest","NO","NO","17","15","15"
+"Site 19 2010-07-10","Urban/Industrial","NO","NO",NA,NA,NA
+"Site 6 2010-07-08","Forest","NO","NO","16","10","5"
+"Site 7 2010-07-06","Urban/Industrial","NO","NO","13","15","11"
+"SJC_C1Alt 2010-06-03","Suburban, Town","NO","NO",NA,NA,NA
+"SJC_R2 2010-05-25","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00080 2011-06-13","Forest","< 5 years","NO","20","11","15"
+"SMC00105 2009-05-12","Forest","NO","NO","15","14","17"
+"SMC00135 2010-06-07","Forest","NO","NO","20","13","10"
+"SMC00153 2009-06-08","Suburban, Town","NO","NO","12","11","5"
+"SMC00180 2010-06-18","Agriculture","NO","NO","20","20","20"
+"SMC00191 2010-07-12","Agriculture","NO","NO",NA,NA,NA
+"SMC00198 2009-05-20","Urban/Industrial","NO","NO","18","16","13"
+"SMC00206 2009-05-18","Other","NO","NO","10","9","12"
+"SMC00271 2009-06-04","Forest","NO","NO","18","15","16"
+"SMC00282 2009-06-09","Agriculture","< 5 year","NO","19","15","10"
+"SMC00288 2009-06-18","Suburban, Town","NO","NO","14","16","13"
+"SMC00318 2010-06-15","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC00324 2010-06-21","Agriculture","NO","NO","10","6","3"
+"SMC00345 2011-07-19","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00375 2010-06-08","Forest","NO","NO","19","11","9"
+"SMC00382 2009-06-23","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC00428 2010-07-22","Forest","< 1 year","NO","20","5","2"
+"SMC00428 2011-08-03","Forest","< 5 years","NO","20","13","13"
+"SMC00436 2009-05-26","Urban/Industrial","NO","NO","1","2","16"
+"SMC00440 2009-05-20","Other","NO","NO","8","10","8"
+"SMC00446 2010-07-01","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC00457 2009-06-04","Urban/Industrial","NO","NO","19","17","13"
+"SMC00464 2009-05-08","Forest","NO","NO","17","19","16"
+"SMC00473 2009-06-03","Urban/Industrial","< 5 year","NO","13","14","12"
+"SMC00476 2009-06-08","Forest","NO","NO","20","18","20"
+"SMC00479 2011-07-13","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC00480 2009-05-13","Forest","NO","NO","20","15","19"
+"SMC00520 2009-05-19","Forest","NO","NO","17","13","12"
+"SMC00520 2011-08-05","Forest","< 5 years","NO","18","10","13"
+"SMC00531 2009-05-18","Urban/Industrial","NO","NO","1","1","14"
+"SMC00544 2011-06-22","Forest","NO","NO","15","14","12"
+"SMC00608 2011-06-27","Suburban, Town","NO","NO","1","1","19"
+"SMC00632 2011-06-13","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00665 2011-07-27","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00670 2009-05-21","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC00684 2011-06-27","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC00686 2011-06-27","Suburban, Town","NO","NO","12","10","9"
+"SMC00693 2010-05-31","Range","NO","NO","16","14","8"
+"SMC00702 2011-07-19","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00710 2009-05-20","Suburban, Town","NO","NO","19","14","17"
+"SMC00729 2009-06-03","Urban/Industrial","NO","NO","13","11","6"
+"SMC00748 2011-06-21","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00756 2009-06-23","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00766 2011-07-11","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00791 2011-06-22","Forest","NO","NO","16","8","10"
+"SMC00827 2009-06-15","Forest","NO","NO","19","17","16"
+"SMC00830 2011-06-21","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC00857 2011-07-13","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00873 2009-05-19","Forest","NO","NO","15","9","8"
+"SMC00899 2011-07-12","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC00903 2011-07-06","Forest","NO","NO","19","19","9"
+"SMC00910 2009-04-30","Other","NO","NO","6","10","13"
+"SMC00911 2009-06-04","Forest","NO","NO","11","16","15"
+"SMC00921 2010-06-02","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00924 2009-06-09","Forest","NO","NO","15","17","16"
+"SMC00924 2011-06-20","Forest","< 5 years","NO","11","10","12"
+"SMC00926 2010-06-28","Suburb/town","NO","NO",NA,NA,NA
+"SMC00957 2010-06-21","Suburban, Town","NO","NO",NA,NA,NA
+"SMC00958 2011-07-19","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC00963 2010-06-17","Urban/Industrial","NO","NO","12","11","12"
+"SMC01004 2009-05-26","Suburban, Town","NO","NO","1","1","17"
+"SMC01013 2010-06-24","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01040 2009-06-09","Forest","NO","NO","17","18","15"
+"SMC01046 2009-05-21","Suburban, Town","NO","NO","15","14","14"
+"SMC01049 2010-06-01","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01096 2010-06-07","Forest","NO","NO","10","8","4"
+"SMC01151 2009-06-17","Agriculture","NO","NO","18","8","5"
+"SMC01155 2009-05-12","Forest","NO","NO","16","11","15"
+"SMC01158 2009-05-20","Agriculture","NO","NO","14","10","6"
+"SMC01161 2010-05-27","Range","NO","NO","19","15","10"
+"SMC01172 2009-06-24","Forest","NO","NO",NA,NA,NA
+"SMC01174 2011-07-20","Forest","NO","NO",NA,NA,NA
+"SMC01196 2010-07-14","Forest","< 1 year","NO","16","7","5"
+"SMC01201 2010-06-02","Suburb/Town","NO","NO","14","11","10"
+"SMC01208 2010-06-08","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01215 2011-07-13","Other","NO","NO","19","11","8"
+"SMC01248 2011-07-26","Forest","NO","NO","20","17","15"
+"SMC01257 2011-06-16","Other","NO","NO","13","12","10"
+"SMC01258 2009-05-27","Urban/Industrial","NO","NO","13","11","7"
+"SMC01278 2009-06-17","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01320 2010-06-07","Forest","< 1 year","NO","12","7","6"
+"SMC01341 2009-06-22","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01358 2011-06-21","Suburban, Town","NO","NO",NA,NA,NA
+"SMC01367 2011-06-23","Forest","NO","NO","20","19","17"
+"SMC01372 2010-07-13","Agriculture","NO","NO","19","14","11"
+"SMC01383 2010-06-01","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01384 2009-06-29","Forest","< 5 year","NO",NA,NA,NA
+"SMC01424 2009-07-01","Forest","NO","NO","19","16","18"
+"SMC01452 2010-07-15","Urban/Industrial","NO","NO","0","1","19"
+"SMC01504 2011-06-28","Forest","NO","NO","19","18","17"
+"SMC01512 2010-06-23","Suburban, Town","NO","NO",NA,NA,NA
+"SMC01523 2011-07-07","Forest","NO","NO","20","11","14"
+"SMC01544 2010-07-14","Forest","< 1 year","NO",NA,NA,NA
+"SMC01550 2009-06-25","Forest","< 5 year","NO",NA,NA,NA
+"SMC01555 2011-06-23","Suburban, Town","NO","NO",NA,NA,NA
+"SMC01559 2011-06-21","Forest","NO","NO","13","9","15"
+"SMC01567 2010-06-09","Forest","NO","NO","19","16","16"
+"SMC01606 2009-05-26","Suburban, Town","NO","NO","4","6","4"
+"SMC01640 2009-06-29","Suburban, Town","NO","NO",NA,NA,NA
+"SMC01655 2011-07-06","Forest","NO","NO","15","12","15"
+"SMC01676 2010-07-03","Agriculture","NO","NO","19","14","15"
+"SMC01684 2009-06-03","Agriculture","NO","NO","0","2","16"
+"SMC01692 2011-06-20","Urban/Industrial","NO","NO","12","4","8"
+"SMC01694 2010-06-28","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01716 2010-06-08","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01717 2009-05-28","Agriculture","NO","NO","16","14","12"
+"SMC01726 2010-06-30","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01748 2009-06-03","Suburban, Town","NO","NO","19","9","1"
+"SMC01808 2011-06-13","Forest","NO","NO","19","12","12"
+"SMC01814 2010-06-09","Other","NO","NO",NA,NA,NA
+"SMC01860 2009-05-28","Agriculture","NO","NO","5","9","11"
+"SMC01909 2009-06-09","Agriculture","NO","NO","15","12","5"
+"SMC01923 2011-07-12","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01960 2010-06-23","Suburban, Town","NO","NO",NA,NA,NA
+"SMC01962 2010-06-08","Other","NO","NO",NA,NA,NA
+"SMC01972 2010-06-07","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC01979 2011-07-14","Forest","NO","NO","19","18","18"
+"SMC01990 2009-05-21","Urban/Industrial","NO","NO","6","13","11"
+"SMC02006 2009-05-26","Urban/Industrial","NO","NO","1","2","8"
+"SMC02059 2010-06-03","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC02088 2011-06-14","Forest","< 5 years","NO",NA,NA,NA
+"SMC02092 2011-06-14","Forest","< 5 years","NO",NA,NA,NA
+"SMC02123 2011-07-05","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC02127 2009-06-04","Forest","NO","NO","18","15","16"
+"SMC02145 2011-07-19","Agriculture","NO","NO","16","12","5"
+"SMC02152 2010-07-14","Forest","NO","NO",NA,NA,NA
+"SMC02167 2010-06-07","Forest","NO","NO","19","11","9"
+"SMC02206 2011-07-19","Suburban, Town","NO","NO",NA,NA,NA
+"SMC02228 2009-06-23","Urban/Industrial","NO","NO","0","1","19"
+"SMC02270 2010-06-30","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC02417 2011-07-20","Suburban, Town","NO","NO",NA,NA,NA
+"SMC02436 2009-05-28","Agriculture","NO","NO","16","11","6"
+"SMC02452 2011-06-30","Agriculture","NO","NO",NA,NA,NA
+"SMC02457 2010-05-31","Suburban, Town","NO","NO",NA,NA,NA
+"SMC02464 2011-06-22","Forest","NO","NO","18","18","15"
+"SMC02536 2011-06-29","Suburban, Town","NO","NO","1","1","19"
+"SMC02548 2010-07-09","Forest","NO","NO","20","18","19"
+"SMC02563 2010-06-24","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC02573 2010-06-09","Agriculture","NO","NO",NA,NA,NA
+"SMC02591 2011-07-21","Forest","NO","NO","19","18","18"
+"SMC02622 2010-06-15","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC02644 2011-06-30","Suburban, Town","NO","NO",NA,NA,NA
+"SMC02656 2009-06-23","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC02749 2011-06-27","Suburban, Town","NO","NO",NA,NA,NA
+"SMC02804 2011-06-20","Suburban, Town","NO","NO",NA,NA,NA
+"SMC02884 2010-06-23","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC02902 2011-08-02","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC02933 2010-06-01","Suburban, Town","NO","NO",NA,NA,NA
+"SMC02947 2011-07-12","Suburban, Town","NO","NO",NA,NA,NA
+"SMC02976 2010-07-27","Forest","NO","NO","18","19","17"
+"SMC02984 2010-06-23","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC03110 2011-07-26","Forest","NO","NO",NA,NA,NA
+"SMC03133 2010-06-02","Agriculture","NO","NO",NA,NA,NA
+"SMC03216 2011-07-27","Forest","NO","NO","19","17","16"
+"SMC03234 2011-06-28","Forest","NO","NO","20","18","14"
+"SMC03268 2009-05-28","Agriculture","NO","NO","3","9","5"
+"SMC03280 2011-08-11","Forest","NO","NO","18","17","16"
+"SMC03304 2011-06-29","Suburban, Town","NO","NO",NA,NA,NA
+"SMC03510 2011-07-21","Range","NO","NO",NA,NA,NA
+"SMC03533 2010-06-01","Other","NO","NO","17","2","2"
+"SMC03687 2010-06-02","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC03944 2010-07-12","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC03971 2011-07-11","Suburban, Town","NO","NO",NA,NA,NA
+"SMC03988 2011-06-29","Suburban, Town","NO","NO","13","15","12"
+"SMC04047 2009-05-14","Forest","NO","NO","16","13","16"
+"SMC04054 2009-05-27","Suburban, Town","NO","NO","15","11","5"
+"SMC04134 2011-07-26","Forest","NO","NO","19","17","12"
+"SMC04175 2009-06-11","Range","NO","NO","15","13","16"
+"SMC04239 2009-06-11","Forest","NO","NO","15","13","11"
+"SMC04264 2010-07-09","Suburban, Town","NO","NO","16","15","17"
+"SMC04308 2009-06-17","Suburban, Town","NO","NO","11","11","15"
+"SMC04383 2010-06-09","Forest","NO","NO","17","17","18"
+"SMC04399 2009-06-11","Forest","NO","NO","9","11","13"
+"SMC04426 2011-07-25","Forest","NO","NO","20","18","16"
+"SMC04661 2011-07-18","Forest","NO","NO","18","13","7"
+"SMC04682 2011-07-25","Forest","NO","NO","20","17","16"
+"SMC04748 2009-07-02","Agriculture","NO","NO","18","11","8"
+"SMC04749 2009-06-23","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC04756 2010-07-07","Agriculture","NO","NO",NA,NA,NA
+"SMC04795 2011-07-14","Forest","NO","NO","19","17","18"
+"SMC04932 2010-07-12","Agriculture","NO","NO",NA,NA,NA
+"SMC05109 2009-06-23","Suburban, Town","NO","NO",NA,NA,NA
+"SMC05199 2011-07-06","Forest","NO","NO","12","16","15"
+"SMC05243 2010-06-10","Other","NO","NO",NA,NA,NA
+"SMC05402 2011-07-28","Forest","NO","NO","20","18","15"
+"SMC05407 2011-07-21","Forest","NO","NO","19","18","18"
+"SMC05524 2011-06-30","Agriculture","NO","NO",NA,NA,NA
+"SMC05702 2010-06-07","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC05759 2010-06-21","Urban/Industrial","NO","NO","19","7","7"
+"SMC06019 2010-06-17","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC06216 2009-05-26","Forest","NO","NO","17","15","15"
+"SMC06458 2010-06-06","Suburban, Town","NO","NO",NA,NA,NA
+"SMC06467 2010-06-28","Forest","NO","NO",NA,NA,NA
+"SMC06653 2010-07-01","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC06714 2010-06-06","Suburban, Town","NO","NO",NA,NA,NA
+"SMC06863 2011-07-21","Forest","NO","NO","13","16","11"
+"SMC06926 2009-07-01","Suburban, Town","NO","NO",NA,NA,NA
+"SMC08150 2010-06-03","Suburban, Town","NO","NO",NA,NA,NA
+"SMC08335 2010-07-07","Agriculture","NO","NO",NA,NA,NA
+"SMC08426 2010-06-08","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC08766 2009-05-26","Suburban, Town","NO","NO",NA,NA,NA
+"SMC08845 2009-06-22","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC09162 2011-08-01","Agriculture","NO","NO",NA,NA,NA
+"SMC09286 2010-06-09","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC09534 2009-06-17","Urban/Industrial","NO","NO","1","2","19"
+"SMC09564 2010-06-01","Suburban, Town","NO","NO",NA,NA,NA
+"SMC09591 2010-06-03","Forest","NO","NO","18","8","5"
+"SMC09698 2010-06-09","Forest","NO","NO","13","17","14"
+"SMC10146 2011-06-28","Forest","NO","NO","12","18","14"
+"SMC10189 2010-06-24","Other","NO","NO","20","17","10"
+"SMC10685 2010-07-01","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC11394 2011-06-30","Forest","NO","NO","20","18","19"
+"SMC11581 2009-06-29","Suburban, Town","NO","NO",NA,NA,NA
+"SMC11727 2010-06-09","Agriculture","NO","NO","13","10","15"
+"SMC12862 2011-06-27","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC15677 2009-06-29","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC16266 2011-08-01","Suburban, Town","NO","NO","13","14","13"
+"SMC16832 2010-06-18","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC16980 2011-07-06","Forest","NO","NO","14","14","15"
+"SMC17056 2009-07-02","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC20032 2010-06-18","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC21822 2010-06-21","Suburban, Town","NO","NO",NA,NA,NA
+"SMC24222 2010-06-21","Suburban, Town","NO","NO",NA,NA,NA
+"SMC25288 2011-06-30","Forest","NO","NO","20","19","18"
+"SMC26288 2009-05-12","Forest","NO","NO","19","12","14"
+"SMC26909 2010-05-31","Other","NO","NO",NA,NA,NA
+"SMC27709 2010-05-31","Suburban, Town","NO","NO",NA,NA,NA
+"SMC32718 2010-06-03","Forest","NO","NO",NA,NA,NA
+"SMC32897 2010-06-21","Urban/Industrial","NO","NO",NA,NA,NA
+"SMC34888 2010-06-24","Forest","NO","NO",NA,NA,NA
+"SMC35697 2010-06-10","Other","NO","NO","10","12","18"
+"SMCR8_020 2011-07-12","Forest","NO","NO","20","19","19"
+"SMCR8_026 2009-05-31","Suburban, Town","NO","NO","20","15","15"
+"SMCR8_105 2011-07-14","Suburban, Town","NO","NO","15","6","7"
+"SMCR8_116 2011-07-25","Other","NO","NO",NA,NA,NA
+"SMCR8_124 2009-06-24","Other","NO","NO",NA,NA,NA
+"SMCR8_131 2009-06-16","Forest","NO","NO","20","17","18"
+"SMCR8_175 2009-06-09","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_179 2009-06-01","NO","NO","NO",NA,NA,NA
+"SMCR8_184 2009-07-07","Forest","NO","NO","20","18","20"
+"SMCR8_191 2009-06-02","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_196 2009-05-24","Forest","NO","NO","20","16","17"
+"SMCR8_197 2009-06-04","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_197 2011-07-11","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_207 2009-06-07","Other","NO","NO",NA,NA,NA
+"SMCR8_218 2009-06-23","Forest","NO","NO","20","18","20"
+"SMCR8_219 2009-07-06","Forest","NO","NO","20","20","18"
+"SMCR8_229 2009-06-01","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_240 2010-06-23","Forest","NO","NO","20","18","12"
+"SMCR8_254 2009-06-16","Forest","NO","NO","20","13","11"
+"SMCR8_254 2011-07-19","Forest","NO","NO","20","18","16"
+"SMCR8_262 2009-06-07","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_274 2010-06-17","Forest","NO","NO","20","19","20"
+"SMCR8_275 2009-06-09","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_289 2009-06-03","Other","NO","NO","19","12","15"
+"SMCR8_299 2009-06-09","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_312 2009-06-14","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_312 2011-07-26","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_317 2009-06-03","Forest","NO","NO","20","16","20"
+"SMCR8_327 2009-06-28","Other","NO","NO","20","1","2"
+"SMCR8_333 2009-06-17","Forest","NO","NO","20","11","11"
+"SMCR8_339 2009-06-08","Other","NO","NO",NA,NA,NA
+"SMCR8_339 2011-07-25","Forest","NO","NO","18","16","15"
+"SMCR8_344 2009-06-15","Forest","NO","NO","20","14","20"
+"SMCR8_356 2010-06-10","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_376 2009-06-11","Forest","NO","NO","12","16","19"
+"SMCR8_404 2011-06-15","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_407 2010-06-21","Forest","NO","NO",NA,NA,NA
+"SMCR8_415 2009-07-08","Other","NO","NO","20","3","19"
+"SMCR8_418 2009-06-08","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_418 2011-07-13","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_436 2010-06-23","Forest","NO","NO","20","19","19"
+"SMCR8_439 2011-06-08","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_445 2010-06-24","Forest","NO","NO","20","16","12"
+"SMCR8_453 2011-07-12","Forest","NO","NO",NA,NA,NA
+"SMCR8_467 2011-06-09","Other","NO","NO",NA,NA,NA
+"SMCR8_474 2009-07-05","Forest","NO","NO","20","20","19"
+"SMCR8_483 2011-06-06","Other","NO","NO","20","17","12"
+"SMCR8_494 2011-06-20","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_501 2011-06-14","Forest","NO","NO","12","14","12"
+"SMCR8_511 2011-06-09","Range","NO","NO",NA,NA,NA
+"SMCR8_512 2011-07-19","Forest","NO","NO","20","16","18"
+"SMCR8_513 2009-06-22","Forest","NO","NO","20","16","19"
+"SMCR8_521 2011-06-06","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_528 2011-07-11","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_533 2011-06-07","Forest","NO","NO","16","9","15"
+"SMCR8_549 2011-06-13","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_558 2011-08-08","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_566 2011-06-15","Range","NO","NO",NA,NA,NA
+"SMCR8_572 2009-06-30","Other","NO","NO",NA,NA,NA
+"SMCR8_575 2011-06-07","Forest","NO","NO","20","12","16"
+"SMCR8_590 2011-07-20","Forest","NO","NO","20","18","19"
+"SMCR8_593 2011-06-13","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_594 2011-06-20","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_598 2010-06-15","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_600 2009-06-28","Other","NO","NO","17","15","18"
+"SMCR8_601 2009-06-24","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_605 2009-07-01","Forest","NO","NO","Not Recorded","Not Recorded","Not Recorded"
+"SMCR8_607 2011-07-19","Forest","NO","NO","20","19","19"
+"SMCR8_613 2009-06-29","Other","NO","NO","20","2","2"
+"SMCR8_618 2011-07-19","Forest","NO","NO","20","11","19"
+"SMCR8_622 2011-06-16","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_629 2011-07-14","Suburban, Town","NO","NO",NA,NA,NA
+"SMCR8_633 2011-07-26","Urban/Industrial","NO","NO",NA,NA,NA
+"SMCR8_688 2009-07-01","Forest","NO","NO","20","18","18"
+"VA_RC 2010-06-02","Suburban, Town","NO","NO","14","7","5"
+"WN_RD 2010-05-27","Other","NO","NO",NA,NA,NA
+"WN_RD1 2010-05-27","Other","NO","NO",NA,NA,NA
