@@ -20,10 +20,11 @@ mydsn <- odbcConnect("SMCreporter", uid ="GisUser", pwd = "")
 
 ###Query
 
-data <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
+dataH <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 
 ###Format data table###
+data$VariableResult[data$ResQualCode=="NR"] <- NA
 colnames(data) <- c("StationCode", "SampleDate", "LocationCode",
                          "AnalyteName", "VariableResult", "ResultQualifierCode", "QACode")
 data$id <- do.call(paste, c(data[c("StationCode", "SampleDate")]))

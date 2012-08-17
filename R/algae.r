@@ -24,7 +24,8 @@ algae <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 
 ###Format data table###
-
+algae$VariableResult[algae$ResQualCode=="NR"] <- NA
+algae$VariableResult[which(is.na(algae$VariableResult))] <- "Not Recorded"
 colnames(algae) <- c("StationCode", "SampleDate", "LocationCode",
                       "AnalyteName", "VariableResult", "ResultQualifierCode", "QACode")
 algae$id <- do.call(paste, c(algae[c("StationCode", "SampleDate")]))

@@ -24,6 +24,7 @@ ripveg <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 
 ###Format data table###
+ripveg$VariableResult[ripveg$ResQualCode=="NR"] <- NA
 colnames(ripveg) <- c("StationCode", "SampleDate", "LocationCode",
                               "AnalyteName", "VariableResult", "ResultQualifierCode", "QACode")
 ripveg$id <- do.call(paste, c(ripveg[c("StationCode", "SampleDate")]))

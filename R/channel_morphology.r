@@ -24,7 +24,7 @@ channel_morph <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby))
 odbcClose(mydsn)
 
 ###Format data table###
-
+channel_morph$Result[channel_morph$ResQualCode=="NR"] <- NA
 colnames(channel_morph) <- c("StationCode", "SampleDate", "LocationCode",
                              "AnalyteName", "Result", "ResultQualifierCode", "QACode")
 channel_morph$id <- do.call(paste, c(channel_morph[c("StationCode", "SampleDate")]))

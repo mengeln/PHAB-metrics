@@ -24,6 +24,7 @@ Densiometer <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 
 ###Format data table###
+Densiometer$Result[Densiometer$ResQualCode=="NR"] <- NA
 colnames(Densiometer) <- c("StationCode", "SampleDate", "LocationCode",
                          "AnalyteName", "Result", "ResultQualifierCode", "QACode")
 Densiometer$id <- do.call(paste, c(Densiometer[c("StationCode", "SampleDate")]))

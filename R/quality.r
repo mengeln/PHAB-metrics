@@ -24,6 +24,7 @@ quality <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 
 ###Metrics##
+quality$Result[quality$ResQualCode=="NR"] <- NA
 quality$id <- do.call(paste, list(quality$StationCode, quality$SampleDate))
 quality$Result[quality$Result==-88] <- NA
 

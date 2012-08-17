@@ -24,6 +24,7 @@ substrate1 <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 substrate <- substrate1
 ###Format
+substrate$VariableResult[substrate$ResQualCode=="NR"] <- NA
 colnames(substrate) <- c("StationCode", "SampleDate", "LocationCode",
                        "AnalyteName", "Result", "VariableResult", "ResultQualifierCode", "QACode")
 substrate$id <- do.call(paste, c(substrate[c("StationCode", "SampleDate")]))

@@ -24,6 +24,7 @@ data <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 
 ###Format data table###
+data$Result[data$ResQualCode=="NR"] <- NA
 colnames(data) <- c("StationCode", "SampleDate", "LocationCode", "CollectionDeviceCode", "FractionName", 
                     "AnalyteName", "Result", "ResultQualifierCode", "QACode")
 data$id <- do.call(paste, c(data[c("StationCode", "SampleDate")]))

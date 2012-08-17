@@ -24,6 +24,7 @@ habitat <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 
 ###Format data table###
+habitat$VariableResult[habitat$ResQualCode=="NR"] <- NA
 colnames(habitat) <- c("StationCode", "SampleDate", "LocationCode",
                          "AnalyteName", "VariableResult", "ResultQualifierCode", "QACode")
 habitat$id <- do.call(paste, c(habitat[c("StationCode", "SampleDate")]))

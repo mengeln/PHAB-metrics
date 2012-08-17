@@ -24,6 +24,7 @@ Bank_stability <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)
 odbcClose(mydsn)
 
 ###Format data table###
+Bank_stability$VariableResult[Bank_stability$ResQualCode=="NR"] <- NA
 colnames(Bank_stability) <- c("StationCode", "SampleDate", "LocationCode",
                          "AnalyteName", "VariableResult", "ResultQualifierCode", "QACode")
 Bank_stability$id <- do.call(paste, c(Bank_stability[c("StationCode", "SampleDate")]))

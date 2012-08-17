@@ -24,6 +24,7 @@ misc <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 
 ###Report###
+misc$VariableResult[misc$ResQualCode=="NR"] <- NA
 misc$VariableResult <- as.character(misc$VariableResult)
 misc$id <- do.call(paste, c(misc[c("StationCode", "SampleDate")]))
 NFC_DLU <- tapply(misc$VariableResult[misc$AnalyteName=="Dominant Land Use"],

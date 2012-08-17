@@ -48,9 +48,12 @@ for(i in 1:length(filelist)){
   finalresults<-rbind(output[, c("StationCode", "SampleDate", "variable", "type", "value")], finalresults)
 }
 
-fc <- file("all_metrics.csv", open="w")
+fc <- file("all_metrics_revised.csv", open="w")
 write.csv(finalresults, fc)
 close(fc)
 #unlink(filelist)
 end <-proc.time()
 print(end-start)
+
+setwd("C:\\Documents and Settings\\gisuser\\Desktop")
+gmailsender("mengeln@gmail.com", "mengeln@gmail.com", finalresults, user="mengeln", pw="kram92620")

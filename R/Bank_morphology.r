@@ -24,6 +24,7 @@ bankmorph <- data.frame(sqlQuery(mydsn, paste(select, from, where, orderby)))
 odbcClose(mydsn)
 
 ###Format data table###
+bankmorph$Result[bankmorph$ResQualCode=="NR"] <- NA
 colnames(bankmorph) <- c("StationCode", "SampleDate", "LocationCode",
                          "AnalyteName", "Result", "ResultQualifierCode", "QACode")
 bankmorph$id <- do.call(paste, c(bankmorph[c("StationCode", "SampleDate")]))

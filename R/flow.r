@@ -30,6 +30,9 @@ velocity <- data.frame(sqlQuery(mydsn, paste(select2, from2, where2, orderby2)))
 odbcClose(mydsn)
 
 ###Format Data Frame##
+velocity$Result[velocity$ResQualCode=="NR"] <- NA
+flow$Result[flow$ResQualCode=="NR"] <- NA
+
 velocity$Result[velocity$Result==-88] <- NA
 velocity$Result[velocity$Result<0] <- 0
 library(reshape)
@@ -86,6 +89,7 @@ neutral <- data.frame(sqlQuery(mydsn, paste(select3, from3, where3, orderby3)))
 odbcClose(mydsn)
 
 ###Format Data Frame###
+neutral$Result[neutral$ResQualCode=="NR"] <- NA
 neutral$id<- do.call(paste, c(neutral[c("StationCode", "SampleDate")]))
 neutral$Location <- rep(NA, length(neutral$id))
 neutral$Location[grep("Upper Section Point", neutral$LocationCode)] <- "Upper"
