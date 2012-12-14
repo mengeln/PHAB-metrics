@@ -1,6 +1,6 @@
 ###Read in requested observations
 setwd("L:/Bioassessment Data Management Tools_RM/R Scripts")
-rowinput <- read.csv("input.csv", header=T)
+rowinput <- read.csv("L:/Bioassessment Data Management Tools_RM/R Scripts/input.csv", header=T)
 options(useFancyQuotes = F)
 rowinput$StationCode <- sQuote(rowinput$StationCode)
 SC <- paste(rowinput$StationCode, collapse="")
@@ -16,7 +16,8 @@ orderby <- "ORDER BY Sample_Entry.StationCode, Sample_Entry.SampleDate, AnalyteL
 
 ###Connect to DB
 library(RODBC)
-mydsn <- odbcConnect("SMCreporter", uid ="GisUser", pwd = "")
+#mydsn <- odbcConnect("SMCreporter", uid ="GisUser", pwd = "")
+mydsn <- odbcConnectAccess("T:/SMCStreamMonitoringProgram/CurrentDatabases/SMCReporter1.0.1d.mdb")
 
 ###Query
 
