@@ -57,7 +57,9 @@ humanDisturbance <- function(x){
                'Riparian Pavement', 'Riparian Pipes', 'Riparian Road', 'Riparian Row Crops', 'Riparian Vegetation Management', 
                'Riparian Wall/Dike'))"
                )
-  hdistMetrics <- metricCalc(NULL)
+  hdistMetrics <- metricCalc(NULL, "hdistm <- function(dat, x){
+    sum(dat[dat$AnalyteName %in% x, 'ResultRight'], dat[dat$AnalyteName %in% x, 'ResultLeft'])
+  }")
   result <- hdistMetrics(hdist, metrics)
   count <- tapply(hdist$Location2, hdist$SampleID, function(x)length(unique(x)))
   result$count <- rep(count, each=length(metrics))

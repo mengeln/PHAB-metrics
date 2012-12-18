@@ -20,6 +20,7 @@ metricCalc <- function(helpers, outerhelpers=NULL){
     result$SampleID <- rep(names(data.l), times=length(metrics))
     result$metric <- rnames
     names(result)[1:3] <- c("mean", "sd", "count")
-    arrange(result[,c("SampleID", "metric", "mean", "sd", "count")], SampleID, metric)
+    result <- result[,c("SampleID", "metric", "mean", "sd", "count")]
+    arrange(result, SampleID)
   }
 }
