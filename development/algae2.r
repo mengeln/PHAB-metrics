@@ -33,16 +33,16 @@ algae <- function(data){
                             algae$macro_count,
                             algae$micro)
 
-  metrics <- c("PCT_MAP" = "sum(d$macro_present)/sum(d$macro_count)", 
-               "XMIAT "= "mean(d$micro, na.rm=T)",
-               "XMIATP" = "sum(d$micro, na.rm=T)/sum(d$micro > 0, na.rm=T)",
-               "PCT_MIATP" = "sum(d$micro > 0, na.rm=T)/sum(d$micro >= 0, na.rm=T)",
-               "PCT_MIAT1" = "sum(d$micro >= 3, na.rm=T)/sum(d$micro >= 0, na.rm=T)",
-               "PCT_MIAT1P" = "sum(d$micro >= 3, na.rm=T)/sum(d$micro > 0, na.rm=T)",
-               "PCT_MAA" = "sum(d$'Macroalgae Cover, Attached' == 'Present')/sum(d$'Macroalgae Cover, Attached' %in% c('Present', 'Absent'))",
-               "PCT_MCP" = "sum(d$'Macrophyte Cover' == 'Present')/sum(d$'Macrophyte Cover' %in% c('Present', 'Absent'))",
-               "PCT_MAU" = "sum(d$'Macroalgae Cover, Unattached' == 'Present')/sum(d$'Macroalgae Cover, Unattached' %in% c('Present', 'Absent'))",
-               "PCT_NSA" = "sum(d$nsa_present)/sum(d$nsa_count)"
+  metrics <- c(PCT_MAP = function(x)sum(x$macro_present)/sum(x$macro_count), 
+               XMIAT = function(x)mean(x$micro, na.rm=T),
+               XMIATP = function(x)sum(x$micro, na.rm=T)/sum(x$micro > 0, na.rm=T),
+               PCT_MIATP = function(x)sum(x$micro > 0, na.rm=T)/sum(x$micro >= 0, na.rm=T),
+               PCT_MIAT1 = function(x)sum(x$micro >= 3, na.rm=T)/sum(x$micro >= 0, na.rm=T),
+               PCT_MIAT1P = function(x)sum(x$micro >= 3, na.rm=T)/sum(x$micro > 0, na.rm=T),
+               PCT_MAA = function(x)sum(x$'Macroalgae Cover, Attached' == 'Present')/sum(x$'Macroalgae Cover, Attached' %in% c('Present', 'Absent')),
+               PCT_MCP = function(x)sum(x$'Macrophyte Cover' == 'Present')/sum(x$'Macrophyte Cover' %in% c('Present', 'Absent')),
+               PCT_MAU = function(x)sum(x$'Macroalgae Cover, Unattached' == 'Present')/sum(x$'Macroalgae Cover, Unattached' %in% c('Present', 'Absent')),
+               PCT_NSA = function(x)sum(x$nsa_present)/sum(x$nsa_count)
   )
 
   algaeMetrics <- metricCalc(NULL)

@@ -38,28 +38,26 @@ humanDisturbance <- function(x){
   }
   
 
-  metrics <- c("W1H_BRDG" = "hdistm(d, 'Riparian Bridges/Abutments')",
-               "W1H_BLDG" = "hdistm(d, 'Riparian Buildings')",
-               "W1H_LDFL" = "hdistm(d, 'Riparian Landfill/Trash')",
-               "W1H_LOG" = "hdistm(d, 'Riparian Logging')",
-               "W1H_MINE" = "hdistm(d, 'Riparian Mining')",
-               "W1H_ORVY" = "hdistm(d, 'Riparian Orchards/Vineyards')",
-               "W1H_PARK" = "hdistm(d, 'Riparian Park/Lawn')",
-               "W1H_PSTR" = "hdistm(d, 'Riparian Pasture/Range')",
-               "W1H_PVMT" = "hdistm(d, 'Riparian Pavement')",
-               "W1H_PIPE" = "hdistm(d, 'Riparian Pipes')",
-               "W1H_ROAD" = "hdistm(d, 'Riparian Road')",
-               "W1H_CROP" =  "hdistm(d, 'Riparian Row Crops')",
-               "W1H_VEGM" = "hdistm(d, 'Riparian Vegetation Management')",
-               "W1H_WALL" = "hdistm(d, 'Riparian Wall/Dike')",
-               "W1_HALL_SWAMP" = "hdistm(d, c('Riparian Bridges/Abutments', 'Riparian Buildings', 'Riparian Landfill/Trash',
+  metrics <- c(W1H_BRDG = function(x)hdistm(x, 'Riparian Bridges/Abutments'),
+               W1H_BLDG = function(x)hdistm(x, 'Riparian Buildings'),
+               W1H_LDFL = function(x)hdistm(x, 'Riparian Landfill/Trash'),
+               W1H_LOG = function(x)hdistm(x, 'Riparian Logging'),
+               W1H_MINE = function(x)hdistm(x, 'Riparian Mining'),
+               W1H_ORVY = function(x)hdistm(x, 'Riparian Orchards/Vineyards'),
+               W1H_PARK = function(x)hdistm(x, 'Riparian Park/Lawn'),
+               W1H_PSTR = function(x)hdistm(x, 'Riparian Pasture/Range'),
+               W1H_PVMT = function(x)hdistm(x, 'Riparian Pavement'),
+               W1H_PIPE = function(x)hdistm(x, 'Riparian Pipes'),
+               W1H_ROAD = function(x)hdistm(x, 'Riparian Road'),
+               W1H_CROP =  function(x)hdistm(x, 'Riparian Row Crops'),
+               W1H_VEGM = function(x)hdistm(x, 'Riparian Vegetation Management'),
+               W1H_WALL = function(x)hdistm(x, 'Riparian Wall/Dike'),
+               W1_HALL_SWAMP = function(x)hdistm(x, c('Riparian Bridges/Abutments', 'Riparian Buildings', 'Riparian Landfill/Trash',
                'Riparian Logging', 'Riparian Mining', 'Riparian Orchards/Vineyards', 'Riparian Park/Lawn', 'Riparian Pasture/Range',
                'Riparian Pavement', 'Riparian Pipes', 'Riparian Road', 'Riparian Row Crops', 'Riparian Vegetation Management', 
-               'Riparian Wall/Dike'))"
+               'Riparian Wall/Dike'))
                )
-  hdistMetrics <- metricCalc(NULL, "hdistm <- function(dat, x){
-    sum(dat[dat$AnalyteName %in% x, 'ResultRight'], dat[dat$AnalyteName %in% x, 'ResultLeft'])
-  }")
+  hdistMetrics <- metricCalc(NULL)
   result <- hdistMetrics(hdist, metrics)
   count <- tapply(hdist$Location2, hdist$SampleID, function(x)length(unique(x)))
   result$count <- rep(count, each=length(metrics))

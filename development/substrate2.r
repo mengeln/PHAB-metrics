@@ -27,48 +27,49 @@ substrate <- function(data){
   
   substrate$Result2 <- mapply(function(x,y)ifelse(!is.na(x), x, y), substrate$Result2, substrate$Result)
   
-  metrics <- c("PCT_RS" = "sum(d$VariableResult2 == 'RS', na.rm=T)/total",
-               "PCT_RR" = "sum(d$VariableResult2 == 'RR', na.rm=T)/total",
-               "PCT_RC" = "sum(d$VariableResult2 == 'RC', na.rm=T)/total",
-               "PCT_XB" = "sum(d$VariableResult2 == 'RR', na.rm=T)/total",
-               "PCT_SB" = "sum(d$VariableResult2 == 'SB', na.rm=T)/total",
-               "PCT_CB" = "sum(d$VariableResult2 == 'CB', na.rm=T)/total",
-               "PCT_GC" = "sum(d$VariableResult2 == 'GC', na.rm=T)/total",
-               "PCT_GF" = "sum(d$VariableResult2 == 'GF', na.rm=T)/total",
-               "PCT_SA" = "sum(d$VariableResult2 == 'SA', na.rm=T)/total",
-               "PCT_FN" = "sum(d$VariableResult2 == 'FN', na.rm=T)/total",
-               "PCT_HP" = "sum(d$VariableResult2 == 'HP', na.rm=T)/total",
-               "PCT_WD" = "sum(d$VariableResult2 == 'WD', na.rm=T)/total",
-               "PCT_OT" = "sum(d$VariableResult2 == 'OT', na.rm=T)/total",
-               "PCT_BDRK" = "sum(d$VariableResult2 %in% c('RR', 'RS'))/total",
-               "PCT_BIGR" = "sum(d$VariableResult2 %in% c('RR', 'RS', 'XB', 'SB', 'CB', 'GC'))/total",
-               "PCT_SFGF" = "sum(d$VariableResult2 %in% c('SA', 'FN', 'GF'))/total",
-               "PCT_SAFN" = "sum(d$VariableResult2 %in% c('SA', 'FN'))/total",
-               "XSDGM" = "10^(sum(log10(d$Result2))/total)",
-               "XSPDGM" = "10^(sum(log10(d$Result2[d$Result2 <= 2500]))/total)",
-               "SB_PT_D50" = "quantAll['50%']",
-               "SB_PT_D10" = "quantAll['10%']",
-               "SB_PT_D25" = "quantAll['25%']",
-               "SB_PT_D75" = "quantAll['75%']",
-               "SB_PT_D90" = "quantAll['90%']",
-               "SB_PP_D50" = "quantPart['50%']",
-               "SB_PP_D10" = "quantPart['10%']",
-               "SB_PP_D25" = "quantPart['25%']",
-               "SB_PP_D75" = "quantPart['75%']",
-               "SB_PP_D90" = "quantPart['90%']")
+  metrics <- c(PCT_RS = function(x)sum(x$VariableResult2 == 'RS', na.rm=T)/x$total[1],
+               PCT_RR = function(x)sum(x$VariableResult2 == 'RR', na.rm=T)/x$total[1],
+               PCT_RC = function(x)sum(x$VariableResult2 == 'RC', na.rm=T)/x$total[1],
+               PCT_XB = function(x)sum(x$VariableResult2 == 'RR', na.rm=T)/x$total[1],
+               PCT_SB = function(x)sum(x$VariableResult2 == 'SB', na.rm=T)/x$total[1],
+               PCT_CB = function(x)sum(x$VariableResult2 == 'CB', na.rm=T)/x$total[1],
+               PCT_GC = function(x)sum(x$VariableResult2 == 'GC', na.rm=T)/x$total[1],
+               PCT_GF = function(x)sum(x$VariableResult2 == 'GF', na.rm=T)/x$total[1],
+               PCT_SA = function(x)sum(x$VariableResult2 == 'SA', na.rm=T)/x$total[1],
+               PCT_FN = function(x)sum(x$VariableResult2 == 'FN', na.rm=T)/x$total[1],
+               PCT_HP = function(x)sum(x$VariableResult2 == 'HP', na.rm=T)/x$total[1],
+               PCT_WD = function(x)sum(x$VariableResult2 == 'WD', na.rm=T)/x$total[1],
+               PCT_OT = function(x)sum(x$VariableResult2 == 'OT', na.rm=T)/x$total[1],
+               PCT_BDRK = function(x)sum(x$VariableResult2 %in% c('RR', 'RS'))/x$total[1],
+               PCT_BIGR = function(x)sum(x$VariableResult2 %in% c('RR', 'RS', 'XB', 'SB', 'CB', 'GC'))/x$total[1],
+               PCT_SFGF = function(x)sum(x$VariableResult2 %in% c('SA', 'FN', 'GF'))/x$total[1],
+               PCT_SAFN = function(x)sum(x$VariableResult2 %in% c('SA', 'FN'))/x$total[1],
+               XSDGM = function(x)10^(sum(log10(x$Result2))/x$total[1]),
+               XSPDGM = function(x)10^(sum(log10(x$Result2[x$Result2 <= 2500]))/x$total[1]),
+               SB_PT_D50 = function(x)parent.frame(6)$quantAll["50%"],
+               SB_PT_D10 = function(x)parent.frame(6)$quantAll["10%"],
+               SB_PT_D25 = function(x)parent.frame(6)$quantAll["25%"],
+               SB_PT_D75 = function(x)parent.frame(6)$quantAll["75%"],
+               SB_PT_D90 = function(x)parent.frame(6)$quantAll["90%"],
+               SB_PP_D50 = function(x)parent.frame(6)$quantPart["50%"],
+               SB_PP_D10 = function(x)parent.frame(6)$quantPart["10%"],
+               SB_PP_D25 = function(x)parent.frame(6)$quantPart["25%"],
+               SB_PP_D75 = function(x)parent.frame(6)$quantPart["75%"],
+               SB_PP_D90 = function(x)parent.frame(6)$quantPart["90%"]
+               )
 
-  substrateMetrics <- metricCalc("total <- sum(!is.na(d$VariableResult2))",
+  substrateMetrics <- metricCalc("d$total <- sum(!is.na(d$VariableResult2))",
                                  "quantAll <- quantile(l$Result2, c(0.5, 0.1, 0.25, 0.75, 0.9), na.rm=T)
                                   quantPart <- quantile(l$Result2[l$Result2 <= 2500], c(0.5, 0.1, 0.25, 0.75, 0.9), na.rm=T)")
   result1 <- substrateMetrics(substrate, metrics)
   
   cpom <- subset(data, AnalyteName == "CPOM")
   cpomMetric <- metricCalc(NULL)
-  result2 <- cpomMetric(cpom, c("CPOM" = "sum(d$VariableResult=='Present')/sum(d$VariableResult %in% c('Present', 'Absent'))"))
+  result2 <- cpomMetric(cpom, c("CPOM" = function(x)sum(x$VariableResult=='Present')/sum(x$VariableResult %in% c('Present', 'Absent'))))
   
   embed <- subset(data, AnalyteName == "Embeddedness")
   embedMetric <- metricCalc(NULL)
-  result3 <- embedMetric(embed, c("XEMBED" = "mean(d$Result, na.rm=T)"))
+  result3 <- embedMetric(embed, c("XEMBED" = function(x)mean(x$Result, na.rm=T)))
   
   rbind(result1, result2, result3)
 }
